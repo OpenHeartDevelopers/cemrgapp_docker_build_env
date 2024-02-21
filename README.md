@@ -7,7 +7,14 @@ Assume you have the following in your computers:
 + Source code for CemrgApp in `$CEMRG_SRC`
 + You need to choose a `$TAG`, which can be `18.04` or `20.04`
 
-> Note that 18.04 builds CemrgApp 2 and 20.04 builds CemrgApp 3 
+> Note that 18.04 builds CemrgApp 2 and 20.04 builds CemrgApp 3
+> CemrgApp 3 is not yet functional !!! 
+
+Pull the docker image that you want (so far only supported: `cemrg/app:18.04`)
+
+```
+docker pull cemrg/app:18.04
+```
 
 You would call the docker container as follows 
 ```sh
